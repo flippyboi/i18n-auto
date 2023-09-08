@@ -57,7 +57,7 @@
 </script>
 
 <main>
-  <h1>i18n translator</h1>
+  <h1>i18n object translator</h1>
   <div class="form">
     <textarea
       class="input"
@@ -76,8 +76,9 @@
 <style>
   .input,
   .output {
-    width: 400px;
-    height: 300px;
+    width: 100%;
+    border-radius: 8px;
+    height: 250px;
   }
 
   .variants {
