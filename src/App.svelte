@@ -66,7 +66,7 @@
     />
     <div class="variants">
       {#each Object.values(Lang) as lng}
-        <button on:click={() => translate(lng)}>{lng}</button>
+        <button disabled={!text} on:click={() => translate(lng)}>{lng}</button>
       {/each}
     </div>
   </div>
